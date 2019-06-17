@@ -31,3 +31,4 @@ attr_accessor :side1, :side2, :side3, :allsides
       "not a triangle"
     end
 
+end
