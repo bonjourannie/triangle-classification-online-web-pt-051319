@@ -21,7 +21,7 @@ attr_accessor :side1, :side2, :side3, :allsides
     else
       raise TriangleError if
         #@side1 <=0 || @side2 <= 0 || @side3 <= 0
-      end
+      #end
         end
       end
   
@@ -31,4 +31,3 @@ attr_accessor :side1, :side2, :side3, :allsides
       "not a triangle"
     end
 
-end
