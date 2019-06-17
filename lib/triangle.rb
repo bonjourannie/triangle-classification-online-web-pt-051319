@@ -30,4 +30,4 @@ attr_accessor :side1, :side2, :side3, :allsides
     def maessage
       "not a triangle"
     end
-
+end
