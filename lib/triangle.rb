@@ -14,7 +14,7 @@ attr_accessor :side1, :side2, :side3, :allsides
 
     if @side1 == @side2 && @side2 == @side3
       return :equilateral
-    elsif @side1 == @side2 && @side1 + @side2 > @side3 || @side1 == @side3 && @side1 + @side3 > @side2 || @side2 == @side3 && @side2 + @side3 > side1
+    elsif @side1 == @side2 && @side1 + @side2 > @side3 || @side1 == @side3 && @side1 + @side3 > @side2 || @side2 == @side3 && @side2 + @side3 > @side1
       return :isosceles
     elsif @side1 != @side2 && @side2 != @side3 && @side1 + @side2 > @side3
       return :scalene
