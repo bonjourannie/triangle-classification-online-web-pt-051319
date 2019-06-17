@@ -24,7 +24,7 @@ attr_accessor :side1, :side2, :side3, :allsides
       end
         end
       end
-    end
+  
   end
   
    class TriangleError < StandardError
